@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ 
+ <hibernate-mapping>
+ <class name="com.abc.Empdetails" table="emp">
+ <id name="no" column="Eid"></id>
+ <property name="fname" column="Firstname"></property>
+ <property name="lname" column="Lastname"></property>
+ <property name="mail" column="Email"></property>
+ 
+ 
+ </class>
+ </hibernate-mapping>
